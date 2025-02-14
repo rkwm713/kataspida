@@ -174,11 +174,10 @@
 
 <body>
     <div class="container">
-        <h1>
-            Upload File
-        </h1>
+        <h1>Upload File</h1>
         <p></p>
-        <form action="/upload" method="post" enctype="multipart/form-data">
+        <!-- Remove the form action and modify to handle processing in JS -->
+        <form id="uploadForm" onsubmit="processFile(event)">
             <div class="file-input-container" id="file-input-container">
                 <input type="file" name="file" accept=".json" required id="file-input">
                 <div class="file-input-label">
@@ -189,7 +188,7 @@
             <button type="submit">Process File</button>
         </form>
         <div class="footer">
-            <img src="{{ url_for('static', filename='images/bot.png') }}" alt="Company Logo" class="footer-logo">
+            <img src="static/images/bot.png" alt="Company Logo" class="footer-logo">
         </div>
     </div>
 
@@ -238,8 +237,91 @@
                 fileInputContainer.classList.remove('drag-over');
             }, 2000); // Adjust delay as needed (here it's for demonstration)
         });
-    </script>
-    
-</body>
+        function replaceOwnerInJson(data) {
+            if (typeof data === 'object' && data !== null) {
+                if (Array.isArray(data)) {
+                    data.forEach(item => replaceOwnerInJson(item));
+                } else {
+                    for (let key in data) {
+                        if (key === 'owner' && typeof data[key] === 'object') {
+                            if (data[key].id === 'Unset Com Owner' && data[key].industry === 'COMMUNICATION') {
+                                data[key].id = 'PNM';
+                                data[key].industry = 'UTILITY';
+                            }
+                        } else {
+                            replaceOwnerInJson(data[key]);
+                        }
+                    }
+                }
+            }
+            return data;
+        }
 
+        function addMissingTypeInEquipments(data) {
+            if (typeof data === 'object' && data !== null) {
+                if (Array.isArray(data)) {
+                    data.forEach(item => addMissingTypeInEquipments(item));
+                } else {
+                    for (let key in data) {
+                        if (key === 'equipments' && Array.isArray(data[key])) {
+                            data[key].forEach(equipment => {
+                                if (equipment.clientItem && typeof equipment.clientItem === 'object') {
+                                    if (!equipment.clientItem.hasOwnProperty('type')) {
+                                        equipment.clientItem.type = 'UNKNOWN';
+                                    }
+                                }
+                            });
+                        } else {
+                            addMissingTypeInEquipments(data[key]);
+                        }
+                    }
+                }
+            }
+            return data;
+        }
+
+        async function processFile(event) {
+            event.preventDefault();
+            
+            const fileInput = document.getElementById('file-input');
+            const file = fileInput.files[0];
+            
+            if (file) {
+                try {
+                    // Read the file
+                    const text = await file.text();
+                    let data = JSON.parse(text);
+                    
+                    // Process the JSON
+                    data = replaceOwnerInJson(data);
+                    data = addMissingTypeInEquipments(data);
+                    
+                    // Create processed filename
+                    const processedFilename = `processed_${file.name}`;
+                    
+                    // Create and download the processed file
+                    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = processedFilename;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                    
+                    // Reset the form
+                    fileInput.value = "";
+                    const container = document.getElementById('file-input-container');
+                    container.classList.remove('file-dropped');
+                    container.classList.remove('drag-over');
+                    
+                } catch (error) {
+                    alert('Error processing file: ' + error.message);
+                }
+            }
+        }
+    </script>
+</body>
 </html>
+
