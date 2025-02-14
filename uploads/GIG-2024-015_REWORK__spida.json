@@ -1,0 +1,3254 @@
+{
+  "label": "GIG-2024-015_REWORK",
+  "schema": "resources/v1/schema/spidacalc/calc/project.schema",
+  "version": 6,
+  "clientFile": "",
+  "clientFileVersion": "",
+  "date": "2024-11-14",
+  "engineer": "",
+  "generalLocation": "",
+  "address": {
+    "number": "",
+    "street": "",
+    "city": "",
+    "county": "",
+    "state": "",
+    "zip_code": ""
+  },
+  "comments": "",
+  "userDefinedValues": {},
+  "forms": [],
+  "leads": [
+    {
+      "label": "GIG-2024-015_REWORK",
+      "locations": [
+        {
+          "label": "U - 001 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.61920663466444,
+                  35.09832037688286
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQgXrihwhPJzeJ-",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 384.11
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 001",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 384.11
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9aCwKbDQUP0pHN-P3b",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 25
+                    },
+                    "direction": 184,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 001",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9aD3CahlcMDmT3fxtr",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 26
+                    },
+                    "direction": 182,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 001",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#3",
+                    "externalId": "-O9zOeV72Zj5pepH2VgO",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 24
+                    },
+                    "direction": 272,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 001",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9WegUotvwNGHbaBZXZ",
+                    "connectionId": "8291dc1742ed0f1b0b0c0ef7",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 163
+                    },
+                    "direction": 90,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9W5vQgXrihwhPJzeIz",
+                    "connectionId": "15c97498be0ee29db1cc8281",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 133
+                    },
+                    "direction": 359,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-O9Wei8RUVJl0ZK0vys0",
+                    "connectionId": "511e10dbf47f95c1db6ef466",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 197
+                    },
+                    "direction": 270,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.61920663466444,
+              35.09832037688286
+            ]
+          },
+          "technician": "ddownie@techserv.com, rtarroyo@techservltd.net, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A237"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 17'-7\": Lower 28\""
+            },
+            {
+              "description": "COMCAST CABLE Down Guy at 17'-7\": Lower 28\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 16'-3\": Lower 24\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Down Guy at 16'-3\": Lower 24\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQgXrihwhPJzeJ-"
+          }
+        },
+        {
+          "label": "U - 002 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.61921643466442,
+                  35.09868356758913
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQgXrihwhPJzeIz",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 434.41
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 002",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 434.41
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQgXrihwhPJzeJ-",
+                    "connectionId": "15c97498be0ee29db1cc8281",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 133
+                    },
+                    "direction": 179,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9_xL4MM-r93XCLE-jn",
+                    "connectionId": "4186e2effdb2c22da61db41c",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 112
+                    },
+                    "direction": 63,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9yuwRbL_z4TnVyFBEF",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 431.63
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 431.63
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "CUTOUT_ARRESTOR",
+                      "size": "1 Cutout Cross Arm (Porcelain)"
+                    },
+                    "id": "Equipment#1"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.61921643466442,
+              35.09868356758913
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A236"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 20'-7\": Lower 24\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 19'-1\": Lower 18\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQgXrihwhPJzeIz"
+          }
+        },
+        {
+          "label": "U - 003 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.61920923044606,
+                  35.099089501217854
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf2",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 407.38
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 003",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 407.38
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9_ydjGlpak2G8T05d4",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 17
+                    },
+                    "direction": 90,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 003",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9_yhrUEJacWO4maI3u",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 20
+                    },
+                    "direction": 100,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 003",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQgXrihwhPJzeIz",
+                    "connectionId": "b3200083d119f831299599ab",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 148
+                    },
+                    "direction": 181,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9q6d1Aa-6MMSy9ii_c",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 249.68
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 249.68
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "Secondary"
+                    },
+                    "id": "Equipment#1"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.61920923044606,
+              35.099089501217854
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A206"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "PNM Drip Loop at 20'-10\": Raise 17\""
+            },
+            {
+              "description": "COMCAST CABLE CATV Com at 18'-11\": Lower 26\""
+            },
+            {
+              "description": "COMCAST CABLE Down Guy at 18'-11\": Lower 26\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 17'-10\": Lower 25\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Down Guy at 17'-10\": Lower 25\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 16'-9\": Lower 12\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf2"
+          }
+        },
+        {
+          "label": "U - 004 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.61932684662705,
+                  35.09942252230001
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf3",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 446.86
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 004",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 446.86
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9zMU1Z1XyB37bUZSL3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 22
+                    },
+                    "direction": 64,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 004",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9zMZO4_CrhbhCnefyY",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 24
+                    },
+                    "direction": 64,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 004",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf4",
+                    "connectionId": "8e615141f10d0ac52e31dff7",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 133
+                    },
+                    "direction": 323,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9_za_mL44_PDhDpw3q",
+                    "connectionId": "306b3947e77a4758fdef5373",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 49
+                    },
+                    "direction": 278,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9qAiohueiWH1Wn-R9b",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 371.04
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 330.19
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "TRANSFORMER",
+                      "size": ""
+                    },
+                    "id": "Equipment#1"
+                  },
+                  {
+                    "externalId": "-O9qAiohueiWH1Wn-R9b",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 300.01
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 300.01
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "secondary"
+                    },
+                    "id": "Equipment#2"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.61932684662705,
+              35.09942252230001
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A207"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 21'-8\": Lower 26\""
+            },
+            {
+              "description": "COMCAST CABLE Down Guy at 21'-8\": Lower 26\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 20'-0\": Lower 18\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Down Guy at 20'-0\": Lower 18\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf3"
+          }
+        },
+        {
+          "label": "U - 005 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.61959306441803,
+                  35.09971280786838
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf4",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 432.22
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 005",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 432.22
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf3",
+                    "connectionId": "8e615141f10d0ac52e31dff7",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 133
+                    },
+                    "direction": 143,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9a-KZ1xRXu928cS3qQ",
+                    "connectionId": "47409c29f1aed5b88190fd9d",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 105
+                    },
+                    "direction": 53,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf5",
+                    "connectionId": "f495008ff1608d30fe7ae8e3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 123
+                    },
+                    "direction": 324,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9qBcVWjhOgeSvZhV17",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 304.8
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 304.8
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "Secondary"
+                    },
+                    "id": "Equipment#1"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.61959306441803,
+              35.09971280786838
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A209"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 21'-4\": Lower 24\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 20'-4\": Lower 24\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf4"
+          }
+        },
+        {
+          "label": "U - 006 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.6198322,
+                  35.09998558
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf5",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 402.63
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 006",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 402.63
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf4",
+                    "connectionId": "f495008ff1608d30fe7ae8e3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 123
+                    },
+                    "direction": 144,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9aEeJJLum0RunhmDts",
+                    "connectionId": "38dbab45e8262a3ee3ca54ba",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 34
+                    },
+                    "direction": 205,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.6198322,
+              35.09998558
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A210"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 16'-7\": Lower 26\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 15'-5\": Lower 24\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf5"
+          }
+        },
+        {
+          "label": "U - 007 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.6200867,
+                  35.10026272
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqfA",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 401.48
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 007",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 401.48
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9a2AVdBEPQuqpmO9aO",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 15
+                    },
+                    "direction": 322,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 007",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9a2EYeRmyOFv3c7wT1",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 18
+                    },
+                    "direction": 324,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 007",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf5",
+                    "connectionId": "f9f781a77b070b79e3c84339",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 127
+                    },
+                    "direction": 143,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9qCWy-hCvuA9IBPKUb",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 344.59
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 310.05
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "TRANSFORMER",
+                      "size": ""
+                    },
+                    "id": "Equipment#1"
+                  },
+                  {
+                    "externalId": "-O9qCWy-hCvuA9IBPKUb",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 276.9
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 276.9
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "secondary"
+                    },
+                    "id": "Equipment#2"
+                  },
+                  {
+                    "externalId": "-O9qCYR9FFcuquJUo22U",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 246.72
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "RISER",
+                      "size": ""
+                    },
+                    "id": "Equipment#3"
+                  },
+                  {
+                    "externalId": "-O9ywp74ysJQEe5vdoP6",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 243.25
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 243.25
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "Secondary"
+                    },
+                    "id": "Equipment#4"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.6200867,
+              35.10026272
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A217"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 17'-2\": Lower 29\""
+            },
+            {
+              "description": "COMCAST CABLE Down Guy at 17'-2\": Lower 29\""
+            },
+            {
+              "description": "COMCAST CABLE Com Drop at 16'-11\": Lower 26\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 15'-9\": Lower 24\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Down Guy at 15'-9\": Lower 24\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqfA"
+          }
+        },
+        {
+          "label": "U - 008 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.6203097702464,
+                  35.100495896433486
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQgXrihwhPJzeJ3",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 399.44
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 008",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 399.44
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQgXrihwhPJzeJ2",
+                    "connectionId": "1b83359d92ba22cdd05bc344",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 155
+                    },
+                    "direction": 318,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.6203097702464,
+              35.100495896433486
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A308"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 19'-4\": Lower 19\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQgXrihwhPJzeJ3"
+          }
+        },
+        {
+          "label": "U - 009 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.6206575,
+                  35.10080968
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQgXrihwhPJzeJ2",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 395.47
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 009",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 395.47
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9a3VBtk-3k9FhdYNs_",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 18
+                    },
+                    "direction": 90,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 009",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9a3_R6bvb4C3rpOABI",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 18
+                    },
+                    "direction": 52,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 009",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQgXrihwhPJzeJ3",
+                    "connectionId": "1b83359d92ba22cdd05bc344",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 155
+                    },
+                    "direction": 138,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9W5vQgXrihwhPJzeJ1",
+                    "connectionId": "25499169aab6e7cc6fa4c5f3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 88
+                    },
+                    "direction": 269,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-O9a31wvEeVVeMqTryI7",
+                    "connectionId": "52e956d6d86b786bda04c853",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 40
+                    },
+                    "direction": 151,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-OB7PrP6dVeCDfjPoh0Q",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 248.03
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 248.03
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "DRIP_LOOP",
+                      "size": "Secondary"
+                    },
+                    "id": "Equipment#1"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.6206575,
+              35.10080968
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A307"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "Unknown Company Drip Loop at 20'-8\": Raise 15\""
+            },
+            {
+              "description": "COMCAST CABLE CATV Com at 18'-3\": Lower 30\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQgXrihwhPJzeJ2"
+          }
+        },
+        {
+          "label": "U - 010 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.62095224984708,
+                  35.10080470102296
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQgXrihwhPJzeJ1",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 372.01
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 010",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 372.01
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9a4U59YLuTTLJ_Bnms",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 30
+                    },
+                    "direction": 270,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 010",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9a4WOx94SPoWoUrqb0",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 17
+                    },
+                    "direction": 0,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 010",
+                    "supportedWEPs": [
+                      "WEP#2"
+                    ]
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQgXrihwhPJzeJ2",
+                    "connectionId": "25499169aab6e7cc6fa4c5f3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 88
+                    },
+                    "direction": 89,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf8",
+                    "connectionId": "60d9589e89f2a2a8c8dc98a4",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 199
+                    },
+                    "direction": 180,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9tgaTn_L_AGsgY3ODx",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 317.76
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 290.28
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "clientItem": {
+                      "type": "TRANSFORMER",
+                      "size": ""
+                    },
+                    "id": "Equipment#1"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.62095224984708,
+              35.10080470102296
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A306"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 15'-4\": Lower 5\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Com Drop at 14'-3\": Lower 6\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 14'-3\": Lower 6\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Down Guy at 14'-3\": Lower 6\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQgXrihwhPJzeJ1"
+          }
+        },
+        {
+          "label": "U - 011 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.6209558,
+                  35.10104877
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQgXrihwhPJzeJ0",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 359.18
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 011",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 359.18
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQgXrihwhPJzeJ1",
+                    "connectionId": "781b67fa96be6028735fedf4",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 89
+                    },
+                    "direction": 179,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9Wf8KJSBq6pxZiouay",
+                    "connectionId": "e17aa8eb8a86a195e1cb75ae",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 66
+                    },
+                    "direction": 4,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.6209558,
+              35.10104877
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A305"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE Com Drop at 20'-2\": Lower 24\""
+            },
+            {
+              "description": "COMCAST CABLE CATV Com at 20'-2\": Lower 24\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQgXrihwhPJzeJ0"
+          }
+        },
+        {
+          "label": "U - 012 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.62095104271452,
+                  35.10025877230225
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf8",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 398.06
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 012",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 398.06
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9zUAyBa1OvbF6Ldoox",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 30
+                    },
+                    "direction": 270,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 012",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQgXrihwhPJzeJ1",
+                    "connectionId": "60d9589e89f2a2a8c8dc98a4",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 199
+                    },
+                    "direction": 360,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9a5lJCd3wYHybHY67b",
+                    "connectionId": "14fe2175ba2190fda13a6d8b",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 10
+                    },
+                    "direction": 89,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf9",
+                    "connectionId": "73b27cc03a9092cd88e35e2b",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 126
+                    },
+                    "direction": 173,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.62095104271452,
+              35.10025877230225
+            ]
+          },
+          "technician": "ddownie@techserv.com, rtarroyo@techservltd.net, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A215"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE Com Drop at 19'-9\": Lower 29\""
+            },
+            {
+              "description": "COMCAST CABLE CATV Com at 19'-4\": Lower 24\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 18'-4\": Lower 24\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Com Drop at 18'-3\": Lower 23\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf8"
+          }
+        },
+        {
+          "label": "U - 013 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.62089900582839,
+                  35.09991615306356
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf9",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 407.69
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 013",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 407.69
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf8",
+                    "connectionId": "73b27cc03a9092cd88e35e2b",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 126
+                    },
+                    "direction": 353,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9a60Q82ps8eNh8nWli",
+                    "connectionId": "4c2580c5ef8ff1b2bf3619ca",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 119
+                    },
+                    "direction": 72,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9tiKoxD0MC-S1JjWQs",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 316.51
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 278.75
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "TRANSFORMER",
+                      "size": ""
+                    },
+                    "id": "Equipment#1"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.62089900582839,
+              35.09991615306356
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A216"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 17'-7\": Lower 18\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf9"
+          }
+        },
+        {
+          "label": "U - 014 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.62087422331352,
+                  35.09971694191524
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqfB",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 426.1
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 014",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 426.1
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9a7hBL8VAGdW72gZLv",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 15
+                    },
+                    "direction": 330,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 014",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9a7p8oMBrHdqTjnfEM",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 16
+                    },
+                    "direction": 227,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 014",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#3",
+                    "externalId": "-O9a8MdgIdYC9DlkBqKV",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 4
+                    },
+                    "direction": 218,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 014",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf9",
+                    "connectionId": "b45cf36ad61920b998137336",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 73
+                    },
+                    "direction": 354,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf6",
+                    "connectionId": "93c652f1cabfb324644fe4d3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 165
+                    },
+                    "direction": 131,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-O9a77cZu8bSGX2mUoUX",
+                    "connectionId": "a2888669404e13c57d975be0",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 26
+                    },
+                    "direction": 193,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.62087422331352,
+              35.09971694191524
+            ]
+          },
+          "technician": "ddownie@techserv.com, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A218"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE Com Drop at 19'-10\": Lower 19\""
+            },
+            {
+              "description": "COMCAST CABLE CATV Com at 19'-6\": Lower 15\""
+            },
+            {
+              "description": "COMCAST CABLE Down Guy at 19'-6\": Lower 15\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 18'-3\": Lower 12\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Down Guy at 18'-3\": Lower 12\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqfB"
+          }
+        },
+        {
+          "label": "U - 015 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.62045734923538,
+                  35.09941981861605
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf6",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 393.89
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 015",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 393.89
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9zSRXo6xXLwthMvK34",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 21
+                    },
+                    "direction": 310,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 015",
+                    "supportedWEPs": [
+                      "WEP#3"
+                    ]
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqfB",
+                    "connectionId": "93c652f1cabfb324644fe4d3",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 165
+                    },
+                    "direction": 311,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9a99XWY2HJ-LujANBd",
+                    "connectionId": "ef6d5f56605b0d1d94d48f4e",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 53
+                    },
+                    "direction": 205,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf7",
+                    "connectionId": "0407d210e80f565cf21e3acd",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 142
+                    },
+                    "direction": 130,
+                    "type": "NEXT_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.62045734923538,
+              35.09941981861605
+            ]
+          },
+          "technician": "ddownie@techserv.com, rtarroyo@techservltd.net, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A212"
+            }
+          ],
+          "remedies": [],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf6"
+          }
+        },
+        {
+          "label": "U - 016 - ",
+          "address": {
+            "number": "",
+            "street": "",
+            "city": "",
+            "county": "",
+            "state": "",
+            "zip_code": ""
+          },
+          "comments": "",
+          "designs": [
+            {
+              "label": "Existing",
+              "analysis": [],
+              "geographicCoordinate": {
+                "type": "Point",
+                "coordinates": [
+                  -106.620096,
+                  35.09916922
+                ]
+              },
+              "structure": {
+                "pole": {
+                  "externalId": "-O9W5vQfFPkT3RKiqqf7",
+                  "agl": {
+                    "unit": "INCH",
+                    "value": 394.97
+                  },
+                  "leanAngle": 0,
+                  "leanDirection": 0,
+                  "environment": "PARALLEL_TO_STREET",
+                  "temperature": {
+                    "unit": "FAHRENHEIT",
+                    "value": 60
+                  },
+                  "stressRatio": 1,
+                  "clientItem": {
+                    "species": "Missing pole_spec on SCID 016",
+                    "classOfPole": "Unknown",
+                    "height": {
+                      "unit": "INCH",
+                      "value": 394.97
+                    }
+                  },
+                  "owner": {
+                    "id": "Unset Com Owner",
+                    "industry": "COMMUNICATION"
+                  }
+                },
+                "foundations": [],
+                "anchors": [
+                  {
+                    "id": "Anchor#1",
+                    "externalId": "-O9zQiHJWB6feFHfggLD",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 13
+                    },
+                    "direction": 202,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 016",
+                    "supportedWEPs": []
+                  },
+                  {
+                    "id": "Anchor#2",
+                    "externalId": "-O9zQnZRXzH2V9N8WsGd",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 27
+                    },
+                    "direction": 202,
+                    "height": {
+                      "unit": "FOOT",
+                      "value": 0
+                    },
+                    "owner": {
+                      "id": "Unset Com Owner",
+                      "industry": "COMMUNICATION"
+                    },
+                    "supportType": "Other",
+                    "guys": [],
+                    "clientItem": "Missing anchor_spec on SCID 016",
+                    "supportedWEPs": []
+                  }
+                ],
+                "wireEndPoints": [
+                  {
+                    "id": "WEP#1",
+                    "externalId": "-O9W5vQfFPkT3RKiqqf6",
+                    "connectionId": "0407d210e80f565cf21e3acd",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 142
+                    },
+                    "direction": 310,
+                    "type": "PREVIOUS_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#2",
+                    "externalId": "-O9WevIHut07I_lz5m8L",
+                    "connectionId": "ea8ebc35805aee4b9c88057e",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 97
+                    },
+                    "direction": 94,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  },
+                  {
+                    "id": "WEP#3",
+                    "externalId": "-O9aAAAqafwOumCFr2Qm",
+                    "connectionId": "712cd63c4f06643eb0a82c2e",
+                    "distance": {
+                      "unit": "FOOT",
+                      "value": 38
+                    },
+                    "direction": 180,
+                    "type": "OTHER_POLE",
+                    "relativeElevation": {
+                      "unit": "INCH",
+                      "value": 0
+                    },
+                    "inclination": {
+                      "unit": "DEGREE_ANGLE",
+                      "value": 0
+                    },
+                    "wires": [],
+                    "spanGuys": [],
+                    "spanPoints": [],
+                    "environment": "NONE"
+                  }
+                ],
+                "spanPoints": [],
+                "notePoints": [],
+                "pointLoads": [],
+                "damages": [],
+                "wires": [],
+                "spanGuys": [],
+                "guys": [],
+                "sidewalkBraces": [],
+                "equipments": [
+                  {
+                    "externalId": "-O9tmmd-dVeoGOKjrwrP",
+                    "attachmentHeight": {
+                      "unit": "INCH",
+                      "value": 346.48
+                    },
+                    "bottomHeight": {
+                      "unit": "INCH",
+                      "value": 314.59
+                    },
+                    "direction": 0,
+                    "owner": {
+                      "id": "PNM",
+                      "industry": "UTILITY"
+                    },
+                    "clientItem": {
+                      "type": "TRANSFORMER",
+                      "size": ""
+                    },
+                    "id": "Equipment#1"
+                  }
+                ],
+                "crossArms": [],
+                "insulators": [],
+                "pushBraces": [],
+                "assemblies": []
+              }
+            }
+          ],
+          "forms": [],
+          "geographicCoordinate": {
+            "type": "Point",
+            "coordinates": [
+              -106.620096,
+              35.09916922
+            ]
+          },
+          "technician": "ddownie@techserv.com, rtarroyo@techservltd.net, olarabasave@techserv.com",
+          "crossStreet1": "",
+          "crossStreet2": "",
+          "images": [],
+          "mapNumber": "",
+          "poleTags": [
+            {
+              "type": "FIELD",
+              "value": "G16A213"
+            }
+          ],
+          "remedies": [
+            {
+              "description": "COMCAST CABLE CATV Com at 18'-9\": Lower 23\""
+            },
+            {
+              "description": "COMCAST CABLE Down Guy at 18'-9\": Lower 23\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Telco Com at 16'-10\": Lower 12\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Down Guy at 16'-10\": Lower 12\""
+            },
+            {
+              "description": "Centurylink / Brightspeed Com Drop at 16'-5\": Lower 7\""
+            }
+          ],
+          "summaryNotes": [],
+          "userDefinedValues": {
+            "nodeId": "-O9W5vQfFPkT3RKiqqf7"
+          }
+        }
+      ]
+    }
+  ]
+}
